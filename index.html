@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="css/colors.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<!-- PhotoSwipe CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe.css">
 </head>
 <body>
 	<!-- pageWrapper -->
@@ -38,6 +40,9 @@
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#scrollToAboutUs">O firmie</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#scrollToPortfolio">Realizacje</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#scrollToReview">Opinii</a>
@@ -197,6 +202,223 @@
 						</div>
 					</div>
 				</article>
+			</div>
+
+			<!-- scrollToPortfolio -->
+			<div id="scrollToPortfolio" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
+				<!-- portfolioBlock -->
+				<section class="portfolioBlock pt-7 pb-7 pt-md-10 pb-md-10 pt-lg-14 pb-lg-14 pt-xl-19 pb-xl-19">
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+								<!-- headingHead -->
+								<header class="headingHead hasPattern mb-6 mb-lg-8 position-relative pb-4 text-center">
+									<h2 class="mb-4">
+										<strong class="font-weight-normal d-block headTitle mb-2">Nasze Realizacje</strong>
+										<span class="d-block">Przykłady naszych prac</span>
+									</h2>
+									<p>Każdy projekt to dla nas wyzwanie, które realizujemy z najwyższą starannością. Zobacz galerię naszych najlepszych realizacji w zakresie instalacji elektrycznych.</p>
+								</header>
+							</div>
+						</div>
+						<!-- Portfolio Filters -->
+						<div class="row mb-5 mb-md-7 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+							<div class="col-12">
+								<div class="portfolioFilters text-center">
+									<button class="filterBtn active" data-filter="all">Wszystkie</button>
+									<button class="filterBtn" data-filter="domy">Domy</button>
+									<button class="filterBtn" data-filter="mieszkania">Mieszkania</button>
+									<button class="filterBtn" data-filter="biura">Biura</button>
+									<button class="filterBtn" data-filter="przemysl">Przemysł</button>
+									<button class="filterBtn" data-filter="inne">Inne</button>
+								</div>
+							</div>
+						</div>
+						<!-- Portfolio Grid -->
+						<div class="portfolioGrid wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" id="portfolioGallery">
+							<!-- Portfolio Item 1 -->
+							<div class="portfolioGridItem" data-category="domy">
+								<a href="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&h=600&fit=crop" alt="Dom Jednorodzinny - Instalacja elektryczna">
+								</a>
+							</div>
+							<!-- Portfolio Item 2 -->
+							<div class="portfolioGridItem" data-category="biura">
+								<a href="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop" alt="Biuro Premium - Instalacja LED">
+								</a>
+							</div>
+							<!-- Portfolio Item 3 -->
+							<div class="portfolioGridItem" data-category="mieszkania">
+								<a href="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop" alt="Apartament - Smart Home">
+								</a>
+							</div>
+							<!-- Portfolio Item 4 -->
+							<div class="portfolioGridItem" data-category="biura">
+								<a href="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Centrum Biurowe - Instalacja">
+								</a>
+							</div>
+							<!-- Portfolio Item 5 -->
+							<div class="portfolioGridItem" data-category="inne">
+								<a href="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop" alt="Restauracja - Oświetlenie">
+								</a>
+							</div>
+							<!-- Portfolio Item 6 -->
+							<div class="portfolioGridItem" data-category="przemysl">
+								<a href="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&h=600&fit=crop" alt="Hala Produkcyjna - Przemysł">
+								</a>
+							</div>
+							<!-- Portfolio Item 7 -->
+							<div class="portfolioGridItem" data-category="domy">
+								<a href="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="Dom - Fotowoltaika">
+								</a>
+							</div>
+							<!-- Portfolio Item 8 -->
+							<div class="portfolioGridItem" data-category="inne">
+								<a href="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop" alt="Sklep - Oświetlenie">
+								</a>
+							</div>
+							<!-- Portfolio Item 9 -->
+							<div class="portfolioGridItem" data-category="mieszkania">
+								<a href="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop" alt="Penthouse - Modernizacja">
+								</a>
+							</div>
+							<!-- Portfolio Item 10 -->
+							<div class="portfolioGridItem" data-category="domy">
+								<a href="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=800&h=600&fit=crop" alt="Nowoczesny dom - Instalacja">
+								</a>
+							</div>
+							<!-- Portfolio Item 11 -->
+							<div class="portfolioGridItem" data-category="biura">
+								<a href="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop" alt="Wieżowiec - Instalacja elektryczna">
+								</a>
+							</div>
+							<!-- Portfolio Item 12 -->
+							<div class="portfolioGridItem" data-category="inne">
+								<a href="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop" alt="Restauracja - System oświetleniowy">
+								</a>
+							</div>
+							<!-- Portfolio Item 13 -->
+							<div class="portfolioGridItem" data-category="mieszkania">
+								<a href="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&h=600&fit=crop" alt="Apartament - Nowoczesne oświetlenie">
+								</a>
+							</div>
+							<!-- Portfolio Item 14 -->
+							<div class="portfolioGridItem" data-category="przemysl">
+								<a href="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&h=600&fit=crop" alt="Magazyn - Instalacja przemysłowa">
+								</a>
+							</div>
+							<!-- Portfolio Item 15 -->
+							<div class="portfolioGridItem" data-category="domy">
+								<a href="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=600&fit=crop" alt="Dom z basenem - Instalacja">
+								</a>
+							</div>
+							<!-- Portfolio Item 16 -->
+							<div class="portfolioGridItem" data-category="biura">
+								<a href="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop" alt="Biuro open space - Oświetlenie">
+								</a>
+							</div>
+							<!-- Portfolio Item 17 -->
+							<div class="portfolioGridItem" data-category="inne">
+								<a href="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=600&fit=crop" alt="Hotel - Instalacja elektryczna">
+								</a>
+							</div>
+							<!-- Portfolio Item 18 -->
+							<div class="portfolioGridItem" data-category="mieszkania">
+								<a href="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1600&h=1200&fit=crop"
+								   data-pswp-width="1600"
+								   data-pswp-height="1200"
+								   target="_blank"
+								   rel="noopener noreferrer">
+									<img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=600&fit=crop" alt="Kuchnia - Smart Home">
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
 
 			<!-- scrollToReview -->
@@ -367,5 +589,69 @@
 	<script src="js/jqueryCustom.js"></script>
 	<!-- include fontAwesome -->
 	<script src="https://kit.fontawesome.com/391f644c42.js"></script>
+	<!-- PhotoSwipe JS -->
+	<script type="module">
+		import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe-lightbox.esm.min.js';
+		import PhotoSwipe from 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.3/dist/photoswipe.esm.min.js';
+
+		// Portfolio Filter & PhotoSwipe Functionality
+		$(document).ready(function() {
+			const filterBtns = $('.filterBtn');
+			const portfolioItems = $('.portfolioGridItem');
+
+			// Filter functionality
+			filterBtns.on('click', function() {
+				const filterValue = $(this).data('filter');
+
+				// Update active button
+				filterBtns.removeClass('active');
+				$(this).addClass('active');
+
+				// Filter items
+				if (filterValue === 'all') {
+					portfolioItems.removeClass('hide').fadeIn(400);
+				} else {
+					portfolioItems.each(function() {
+						const category = $(this).data('category');
+						if (category === filterValue) {
+							$(this).removeClass('hide').fadeIn(400);
+						} else {
+							$(this).addClass('hide').fadeOut(400);
+						}
+					});
+				}
+
+				// Reinitialize PhotoSwipe
+				setTimeout(initPhotoSwipe, 500);
+			});
+
+			// Initialize PhotoSwipe
+			function initPhotoSwipe() {
+				const lightbox = new PhotoSwipeLightbox({
+					gallery: '#portfolioGallery',
+					children: '.portfolioGridItem:not(.hide) a',
+					pswpModule: PhotoSwipe,
+					padding: { top: 50, bottom: 50, left: 50, right: 50 },
+					bgOpacity: 0.95,
+					loop: true,
+					zoom: true,
+					close: true,
+					arrowKeys: true,
+					returnFocus: true,
+					clickToCloseNonZoomable: true,
+					imageClickAction: 'zoom',
+					tapAction: 'toggle-controls',
+					doubleTapAction: 'zoom',
+					pinchToClose: true,
+					closeOnVerticalDrag: true,
+				});
+
+				lightbox.init();
+			}
+
+			// Initial setup
+			initPhotoSwipe();
+		});
+	</script>
 </body>
 </html>
